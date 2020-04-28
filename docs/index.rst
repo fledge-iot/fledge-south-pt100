@@ -1,10 +1,10 @@
 .. Images
-.. |pt100_2| image:: images/pt100_2.jpg
+.. |pt100_1| image:: images/pt100_1.jpg
 
 PT100 Temperature Sensor
 ========================
 
-.. image:: images/pt100_1.jpg
+.. image:: images/pt100.jpg
    :align: left
 
 The *fledge-south-pt100* is a south plugin for the PT-100 temperature sensor. The sensor connects via the I2C bus on GPIO pins.
@@ -22,7 +22,7 @@ To create a south service with the PT100
   - Name your service and click *Next*
 
   +-----------+
-  | |pt100_2| |
+  | |pt100_1| |
   +-----------+
 
   - Configure the plugin
