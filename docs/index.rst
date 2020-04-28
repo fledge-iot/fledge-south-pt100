@@ -7,7 +7,7 @@ PT100 Temperature Sensor
 .. image:: images/pt100.jpg
    :align: left
 
-The *fledge-south-pt100* is a south plugin for the PT-100 temperature sensor. The sensor connects via the I2C bus on GPIO pins.
+The *fledge-south-pt100* is a south plugin for the PT-100 temperature sensor. The PT100 is a resistance temperature detectors (RTDs) consist of a fine wire (typically platinum) wrapped around a ceramic core, exhibiting a linear increase in resistance as temperature rises. The sensor connects via a MAX3186 converter to a GPIO pin.
 
 .. note::
 
