@@ -72,7 +72,7 @@ To connect a three wire sensor connect the red pair of wires across the RTD+ pai
 
 If using the 3 wire sensor you must also modify the jumpers on the MAX31865.
 
-.. image:: images/max31865_3wire
+.. image:: images/max31865_3wire.jpg
    :align: left
 
 Create a solder bridge across the *2/3 Wire* jumper, outlined in red in the picture above.
