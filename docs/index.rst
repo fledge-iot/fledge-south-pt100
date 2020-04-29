@@ -77,7 +77,9 @@ If using the 3 wire sensor you must also modify the jumpers on the MAX31865.
 
 Create a solder bridge across the *2/3 Wire* jumper, outlined in red in the picture above.
 
-You must also cut the thin wire trace on the jumper block outline in yellow that runs between the 2 and 4. Then create a new connection between the 3 and 3 side of this jumper block. This is probably best done with a solder bridge.
+You must also cut the thin wire trace on the jumper block outlined in yellow that runs between the 2 and 4.
+
+Then create a new connection between the 4 and 3 side of this jumper block. This is probably best done with a solder bridge.
 
 .. raw:: html
 
