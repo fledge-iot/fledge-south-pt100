@@ -8,7 +8,6 @@
 
 import copy
 import json
-import uuid
 import logging
 import RPi.GPIO as GPIO
 
@@ -59,7 +58,7 @@ def plugin_info():
 
     return {
         'name': 'PT100 Poll Plugin',
-        'version': '1.7.0',
+        'version': '1.8.0',
         'mode': 'poll',
         'type': 'south',
         'interface': '1.0',
@@ -109,7 +108,6 @@ def plugin_poll(handle):
             data.append({
                 'asset': '{}temperature{}'.format(handle['assetNamePrefix']['value'], probe.csPin),
                 'timestamp': utils.local_timestamp(),
-                'key': str(uuid.uuid4()),
                 'readings': {
                     "temperature": temperature
                 }
