@@ -58,7 +58,7 @@ def plugin_info():
 
     return {
         'name': 'PT100 Poll Plugin',
-        'version': '1.8.1',
+        'version': '1.8.2',
         'mode': 'poll',
         'type': 'south',
         'interface': '1.0',
